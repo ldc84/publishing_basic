@@ -21,10 +21,10 @@
 > 6. git 설치 및 업로드 후 런칭
 
 ## 참고자료
-http://www.w3schools.com/
-https://developer.mozilla.org/ko/
-https://css-tricks.com/
-https://opentutorials.org/
-https://poiemaweb.com/
-https://velopert.com/
-https://www.zerocho.com/
+- http://www.w3schools.com/
+- https://developer.mozilla.org/ko/
+- https://css-tricks.com/
+- https://opentutorials.org/
+- https://poiemaweb.com/
+- https://velopert.com/
+- https://www.zerocho.com/
