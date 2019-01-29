@@ -1,47 +1,131 @@
-# HTML
+# CSS
 
 ## 목차
-> 1. HTML 이란 ?
-> 2. HTML 의 버전
-> 3. HTML 의 구성
-> 4. inline tag 와 block tag 의 종류 및 차이
-> 5. tag 별 의미
+> 1. CSS 란 ?
+> 2. CSS 적용방법
+> 3. CSS 선택자
+> 4. 많이 쓰는 속성
+> 5. CSS 상속
+> 6. CSS3
 
-## 1. HTML 이란 ?
+## 1. css 란 ?
 
-``` bash  
-Hyper Text Markup Language
-```  
-
-
-## 2. HTML 의 버전
-- html 4.01 Strict
-- html 4.01 Transitional
-- html 4.01 Frameset
-- xhtml 1.0 Strict
-- xhtml 1.0 Transitional
-- xhtml 1.0 Frameset
-- xhtml 1.1
-- __html 5__
-
-## 3. HTML 의 구성
-``` html  
-<!DOCTYPE html>
-<html>
-<head>
-  문서 정의
-</head>
-<body>
-  문서 내용
-</body>
-</html>
-```  
-
-## 4. inline tag 와 block tag 의 종류 / 차이 / 의미
 ``` bash
-## block
-> div 
+Cascading Style Sheet
+```  
+웹에 대한 표현
 
-## inline
-> span
+
+## 2. CSS 적용방법
+외부 스타일
+``` html
+<!-- html head 에 추가 -->
+<link rel="stylesheet" href="style.css">
 ```
+
+내부 스타일
+``` html
+<!-- html head 에 추가 -->
+<style type="text/css">
+
+</style>
+```
+
+인라인 스타일
+``` html
+<!-- html 태그에 직접 입력 -->
+<div style="display:block; color:#666; font-size:20px;">
+
+</div>
+```
+
+
+## 3. CSS 선택자
+``` css
+/* id */
+#id {}
+
+/* class */
+
+.class {}
+
+/* 태그 */
+div {}
+
+/* 가상선택자 */
+a:hover {}
+a:focus {}
+a:active {}
+a:visited {}
+a:before {}
+a:after {}
+a:first-child {}
+a:last-child {}
+a:nth-child(n) {}
+a:nth-child(even) {}
+a:nth-child(odd) {}
+a:nth-of-type(n) {}
+a:not() {}
+...
+```
+
+
+## 4. 많이 쓰는 속성
+``` css
+/* 기본타입 */
+.selector {
+  propertie:value;
+}
+
+/* 영역 */
+.layout {
+  display:block; /* inline / line-block / block / table / flex / grid */
+  position:relative; /* relative / absolute / fixed / sticky / static(default) */
+  float:left; /* left / right / none / inherit */
+}
+
+/* 여백 or 간격 */
+.padding-marging {
+  margin:10px;
+  margin:0 auto;
+  margin:0 auto 10px;
+  padding:20px;
+  padding-left:10px;
+}
+
+/* 컬러 */
+.color {
+  /* Hex */
+  color:#fff;
+  border-color:#111;
+  background-color:#222;
+  /* RGB */
+  color:rgb(0,0,0);
+  color:rgba(0,0,0,0.3);
+}
+
+/* 폰트 */
+.font {
+  font-family:'gulim', 'dotum';
+  font-size:20px;
+  font-weight:300;
+  line-height:20px;
+  letter-spacing:-1px;
+  word-spacing:-1px;
+}
+```
+
+
+## 5. CSS 상속
+``` css
+.class div {}
+li li {}
+```
+
+## 6. CSS3 일부 기능
+> - cross browsing issue 가 있음. 표준브라우저에선 이상없지만 ie10이하에선 일부 적용 안되는 경우가 있음.
+> - transform : 회전 및 애니메이션 하기 위한 속성
+> - transition 에 의한 애니메이션
+> - animation : @keyframes
+> - background 효과 : image / clip / attachment / blend-mode
+> - etc ...
