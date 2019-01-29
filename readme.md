@@ -40,7 +40,7 @@ Hyper Text Markup Language
 ## 4. inline tag 와 block tag 의 종류 / 차이 / 의미
 ``` bash
 ## block
-> div
+> div 
 
 ## inline
 > span
