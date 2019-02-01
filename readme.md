@@ -43,5 +43,5 @@ Hyper Text Markup Language
 > div 
 
 ## inline
-> span
+> span 
 ```
