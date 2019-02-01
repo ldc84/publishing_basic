@@ -113,7 +113,7 @@ table 속성과 동일하게 들어감
 ```
 
 ### 4.2 flex
-요즘 가장 핫하고 쓰임새가 좋은 속성 [링크](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+요즘 가장 핫하고 쓰임새가 좋은 속성 ([링크](https://css-tricks.com/snippets/css/a-guide-to-flexbox/))
 ``` css
 .flex {
   display:flex;
@@ -125,7 +125,7 @@ table 속성과 동일하게 들어감
 ```
 
 ### 4.3 grid
-정식으로 나온지 얼마 되지 않은 속성이지만 다양한 기능 [링크](https://css-tricks.com/snippets/css/complete-guide-grid/)
+정식으로 나온지 얼마 되지 않은 속성이지만 다양한 기능 ([링크](https://css-tricks.com/snippets/css/complete-guide-grid/))
 ``` css
 .grid {
   display:grid;
