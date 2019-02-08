@@ -5,6 +5,7 @@
 > 2. gnb
 > 3. table
 > 4. form
+> 5. jquery
 
 ## 1. list
 목록을 나타냄
@@ -39,7 +40,7 @@
 
 
 ## 4. form
-사용자가 입력
+사용자 입력
 ``` html
 <form>
 폼태그
@@ -50,4 +51,11 @@
 </select>
 <textarea>내용입력시</textarea>
 <button>버튼</button>
+```
+
+## 5. jquery
+Javascript를 이용한 라이브러리
+``` html
+<!-- cdn -->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 ```
