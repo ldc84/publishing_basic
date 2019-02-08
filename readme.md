@@ -6,7 +6,8 @@
 > 3. CSS 선택자
 > 4. 많이 쓰는 속성
 > 5. CSS 상속
-> 6. CSS3
+> 6. 미디어쿼리(반응형)
+> 7. CSS3
 
 ## 1. css 란 ?
 
@@ -122,7 +123,30 @@ a:not() {}
 li li {}
 ```
 
-## 6. CSS3 일부 기능
+## 6. 미디어쿼리
+``` css
+/* 0 ~ 767px 넓이만 적용 */
+@media screen and (max-width:767px) {
+  
+}
+
+/* 768px ~ 1199px 넓이만 적용 */
+@media screen and (min-width:768px) and (max-width:1199px) {
+  
+}
+
+/* 1200px 이상 넓이만 적용 */
+@media screen and (min-width:1200px) {
+  
+}
+
+/* 폰을 눕혔을때도 가능 */
+@media screen and (orientation: landscape) {
+  
+}
+```
+
+## 7. CSS3 일부 기능
 > - cross browsing issue 가 있음. 표준브라우저에선 이상없지만 ie10이하에선 일부 적용 안되는 경우가 있음.
 > - transform : 회전 및 애니메이션 하기 위한 속성
 > - transition 에 의한 애니메이션
