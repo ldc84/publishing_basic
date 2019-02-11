@@ -41,7 +41,29 @@ Hyper Text Markup Language
 ``` bash
 ## block
 > div
+> table : 표
+> tr, td : 표 구성
+> ul : 순서가 없는 목록
+> ol : 순서가 있는 목록
+> li : 목록 내용
+> p : 문단
+> dl : 정의형 목록
+> dt : 정의형 제목
+> dd : 정의형 내용
+> h(n) : 제목형
+
+> header
+> footer
+> nav
+> section
+> aside
+> article
 
 ## inline
 > span 
+> a 
+> img
+> strong
+> em
+> address
 ```
