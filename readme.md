@@ -1,4 +1,4 @@
-# HTML / CSS / JS 기초
+# HTML / CSS / JS(JQEURY) 기초
 각 브런치별로 간단하게 작성.<br>
 구조 / 표현 / 동작
 
