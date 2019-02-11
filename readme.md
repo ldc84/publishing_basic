@@ -40,7 +40,7 @@ Hyper Text Markup Language
 ## 4. inline tag 와 block tag 의 종류 / 차이 / 의미
 ``` bash
 ## block
-> div
+> div : 의미없는 블록 요소
 > table : 표
 > tr, td : 표 구성
 > ul : 순서가 없는 목록
@@ -51,19 +51,22 @@ Hyper Text Markup Language
 > dt : 정의형 제목
 > dd : 정의형 내용
 > h(n) : 제목형
+> form : 사용자 전송
 
-> header
-> footer
-> nav
-> section
-> aside
-> article
+> header : 해더 영역
+> footer : 푸터 영역
+> nav : 네비게이션
+> section : 영역 구분
+> aside : 독립적으로 쓸 수 있는 블록 요소
+> article : 영역들을 모아 놓은 블록 요소
 
 ## inline
-> span 
-> a 
-> img
-> strong
-> em
-> address
+> span : 의미없는 인라인 요소
+> a : 링크
+> img : 이미지
+> strong : 강조
+> em : 강조
+> address : 주소
+> input : 사용자 선택
+> select : 사용자 선택
 ```
