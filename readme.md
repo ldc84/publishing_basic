@@ -67,6 +67,7 @@ Hyper Text Markup Language
 > strong : 강조
 > em : 강조
 > address : 주소
-> input : 사용자 선택
+> input : 사용자 선택 및 입력
 > select : 사용자 선택
+> button : 클릭 요소
 ```
