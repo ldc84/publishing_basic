@@ -86,7 +86,7 @@ a:not() {}
 }
 
 /* 여백 or 간격 */
-.padding-marging {
+.padding-margin {
   margin:10px;
   margin:0 auto;
   margin:0 auto 10px;
@@ -113,6 +113,7 @@ a:not() {}
   line-height:20px;
   letter-spacing:-1px;
   word-spacing:-1px;
+  word-wrap:keep-all;
 }
 ```
 
