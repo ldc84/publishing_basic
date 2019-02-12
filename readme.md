@@ -58,15 +58,15 @@ a:hover {}
 a:focus {}
 a:active {}
 a:visited {}
-a:before {}
-a:after {}
-a:first-child {}
-a:last-child {}
-a:nth-child(n) {}
-a:nth-child(even) {}
-a:nth-child(odd) {}
-a:nth-of-type(n) {}
-a:not() {}
+div:before {}
+div:after {}
+div:first-child {}
+div:last-child {}
+div:nth-child(n) {}
+div:nth-child(even) {}
+div:nth-child(odd) {}
+div:nth-of-type(n) {}
+div:not() {}
 ...
 ```
 
