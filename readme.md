@@ -115,6 +115,19 @@ div:not() {}
   word-spacing:-1px;
   word-wrap:keep-all;
 }
+
+/* 정렬 */
+.align {
+  text-align:center;
+  vertical-align:middle;
+}
+
+/* 다중 */
+.multi {
+  border:1px solid #ddd;
+  background:#333 url('/images/bg.jpg') no-repeat 0 center;
+  font:italic bold 12px/20px arial, sans-serif; /* 비추 */
+}
 ```
 
 
