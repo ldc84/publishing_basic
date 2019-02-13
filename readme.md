@@ -1,12 +1,20 @@
-# 사이트제작
+# 사이트 런칭
 
 ## 목차
-> 1. 직접제작
-> 2. 템플릿
+> 1. git 설치
+> 2. github 회원가입
+> 3. git desktop 설치
+> 4. 작업물 업로드
 
-## 1. 직접제작
-벤치마킹한 사이트 및 본인 아이디어로 제작.
+## 1. git 설치
+https://git-scm.com/
 
-## 2. 탬플릿
-http://jekyllthemes.org/<br>
-https://colorlib.com/wp/free-html-website-templates/
+## 2. github 회원가입
+>회원가입시 아이디가 도메인에 영향을 줄 수 있음.
+
+https://github.com/
+
+## 3. git desktop 설치
+https://desktop.github.com/
+
+## 4. 작업물 업로드
