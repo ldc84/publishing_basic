@@ -78,7 +78,7 @@ div:not() {}
   propertie:value;
 }
 
-/* 영역 */
+/* 영역 or 위치 */
 .layout {
   display:block; /* inline / line-block / block / table / flex / grid */
   position:relative; /* relative / absolute / fixed / sticky / static(default) */
@@ -160,10 +160,11 @@ li li {}
 }
 ```
 
-## 7. CSS3 일부 기능
+## 7. CSS3
 > - cross browsing issue 가 있음. 표준브라우저에선 이상없지만 ie10이하에선 일부 적용 안되는 경우가 있음.
-> - transform : 회전 및 애니메이션 하기 위한 속성
-> - transition 에 의한 애니메이션
-> - animation : @keyframes
-> - background 효과 : image / clip / attachment / blend-mode
+> - transition([링크](https://poiemaweb.com/css3-transition)) : 모션 속도
+> - transform([링크](https://poiemaweb.com/css3-transform)) : translate() / scale() / skew() / rotate()
+> - animation([링크](https://poiemaweb.com/css3-animation)) : 반복적인 애니메이션
+> - filter([링크](http://bennettfeely.com/filters/)) : blur() / brightness() / contrast() / drop-shadow() / grayscale() / hue-rotate() / invert() / opacity() / saturate() / sepia()
+> - background 효과 : image multi ([링크](https://css-tricks.com/css-basics-using-multiple-backgrounds/)) / clip([링크](https://developer.mozilla.org/en-US/docs/Web/CSS/background-clip)) / attachment([링크](https://css-tricks.com/use-cases-fixed-backgrounds-css/)) / blend-mode([링크](https://codepen.io/robinrendle/pen/8c62dc10880c3898bde28d4d78d1f567))
 > - etc ...
