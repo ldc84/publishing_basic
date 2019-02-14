@@ -55,7 +55,6 @@ footer {
 }
 #container {
   position:relative;
-  height:400px;
   background-color:gray;
 }
 #lnb {
@@ -67,6 +66,7 @@ footer {
   background-color:pink;
 }
 #contents {
+  height:400px;
   padding:0 0 0 100px;
   background-color:green;
 }
@@ -84,7 +84,6 @@ footer {
   background-color:yellow;
 }
 #container {
-  height:400px;
   background-color:gray;
   overflow:hidden;
 }
@@ -97,6 +96,7 @@ footer {
 #contents {
   float:left;
   width:400px;
+  height:400px;
   padding:0 0 0 100px;
   background-color:green;
 }
