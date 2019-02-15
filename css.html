@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+  #id {
+    border:1px solid green;
+  }
+  #footer {
+    border:1px solid blue;
+  }
+  .class {
+    padding:100px;
+  }
+  a:hover {color:black;}
+  a:focus {color:red;}
+  a:active {}
+  a:visited {border:10px solid green;}
+  p:before {
+    content:'';
+    display:block;
+    border:20px solid blue;
+  }
+  .margin-auto {
+    color:#fff;
+    word-break:keep-all;
+    background-color:blue;
+  }
+  .aa > span {
+    border:1px solid black;
+  }
+  .aa > span:nth-child(1n+3) {
+    border:2px solid green;
+  }
+
+  /* 0 ~ 767px 넓이만 적용 */
+@media screen and (max-width:767px) {
+  body {
+    background:yellow;
+  }
+}
+
+/* 768px ~ 1199px 넓이만 적용 */
+@media screen and (min-width:768px) and (max-width:1199px) {
+  body {
+    background:blue;
+  }
+}
+
+/* 1200px 이상 넓이만 적용 */
+@media screen and (min-width:1200px) {
+  body {
+    background:green;
+  }
+}
+
+/* 폰을 눕혔을때도 가능 */
+@media screen and (orientation: landscape) {
+  body {
+    background:red;
+  }
+}
+  </style>
+</head>
+<body>
+  <div class="class" id="id"></div>
+  <div class="class" id="footer"></div>
+  <a href="https://naver.com">링크</a>
+
+  <p>내용</p>
+  <p class="margin-auto">
+    많이 쓰는 속성많이 쓰는 속성많이 쓰는 속성많이 쓰는 속성많이 쓰는 속성많이 쓰는 속성많이 쓰는 속성많이 쓰는 속성많이 쓰는 속성많이 쓰는 속성많이 쓰는 속성많이 쓰는 속성많이 쓰는 속성많이 쓰는 속성
+  </p>
+
+  <div class="aa">
+    <span>
+      qqq
+    </span>
+    <span>
+      qqq
+    </span>
+    <span>
+      qqq
+    </span>
+    <span>
+      qqq
+    </span>
+  </div>
+</body>
+</html>

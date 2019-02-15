@@ -113,7 +113,7 @@ div:not() {}
   line-height:20px;
   letter-spacing:-1px;
   word-spacing:-1px;
-  word-wrap:keep-all;
+  word-break:keep-all;
 }
 
 /* 정렬 */
