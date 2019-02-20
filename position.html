@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Position</title>
+  <style>
+    * {
+      padding:0;
+      margin:0;
+    }
+    #wrap {
+      border:1px solid #c1c1c1;
+    }
+    header, 
+    footer {
+      height:60px;
+      background-color:yellow;
+    }
+    footer {
+      position:absolute;
+      top:10px;
+      left:0;
+      padding:10px;
+    }
+    #container {
+      position:relative;
+      background-color:gray;
+    }
+    #lnb {
+      position:absolute;
+      top:0;
+      left:0;
+      bottom:0;
+      width:100px;
+      background-color:pink;
+    }
+    #contents {
+      height:400px;
+      padding:0 0 0 100px;
+      background-color:green;
+    }
+  </style>
+</head>
+<body>
+
+<!-- wrap -->
+<div id="wrap">
+
+  <!-- header -->
+  <header>해더</header>
+  <!-- //header -->
+
+  <!-- container -->
+  <div id="container">
+
+    <!-- lnb -->
+    <aside id="lnb">
+      LNB
+    </aside>
+    <!-- //lnb -->
+
+    <!-- contents -->
+    <section id="contents">
+      Contents..
+    </section>
+    <!-- //contents -->
+
+  </div>
+  <!-- //container -->
+
+  <!-- footer -->
+  <footer>푸터</footer>
+  <!-- //footer -->
+
+</div>
+<!-- //wrap -->
+
+</body>
+</html>

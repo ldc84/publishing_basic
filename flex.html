@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Flex</title>
+  <style>
+    * {
+      padding:0;
+      margin:0;
+    }
+    .flex {
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:space-between;
+    }
+    .flex > div {
+      width:100px;
+      height:100px;
+      background: red;
+    }
+    .flex > div:first-child {
+      width:300px;
+      background-color:yellow;
+      order:4;
+    }
+    .flex > div:nth-child(2) {
+      background-color:blue;
+      order:2;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="flex">
+    <div>112</div>
+    <div>1212</div>
+    <div>1212</div>
+    <div>df</div>
+  </div>
+
+</body>
+</html>
