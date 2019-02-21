@@ -34,6 +34,19 @@
 
 ## 에디터(개발툴)
 - 무료중에 VSCode(Visual Studio Code) 추천. ([링크](https://code.visualstudio.com/))
+> 확장 프로그램
+> * Auto Close Tag - 자동 태그 닫기
+> * Auto Rename Tag - 자동으로 열기 닫기 태그 이름 맞춰줌
+> * Beautify - 코드 정렬
+> * Diff - 파일비교
+> * HTML Snippets - 태그자동생성
+> * Instant Markdown - md 파일 브라우저로 미리보기
+> * IntelliSense for CSS class names in HTML - HTML에서 css 클래스명 미리보기
+> * Live Server - HTML 실시간 리로딩
+> * Markdown Preview Enhanced - md 파일 vscode 에서 미리보기
+> * minify - 파일 압축(최소화하기)
+> * open in browser - 파일 브라우저로 열기(마우스 우클릭)
+> * Rainbow Brackets - 코드 선택 영역별 컬러로 표시
 
 ## 코드실행기
 - https://codepen.io
