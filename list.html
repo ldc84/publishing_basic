@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>List</title>
+  <style>
+    * {
+      padding:0;
+      margin:0;
+    }
+    body {
+      padding:100px;
+    }
+    ul {
+      list-style:none;
+    }
+    div > ul li {
+      position:relative;
+      padding-left:14px;
+    }
+    div > ul li:before {
+      content:'';
+      position:absolute;
+      top:5px;
+      left:0;
+      display:block;
+      width:4px;
+      height:4px;
+      background:#000;
+      border-radius:50%;
+    }
+    div > ul > li ul {
+      position:absolute;
+      top:0;
+      left: 0;
+      border:1px solid blue;
+      opacity:0;
+      transition:all .3s ease-in-out;
+    }
+    div > ul > li:hover ul {
+      opacity: 1;
+      left:100px;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <ul>
+      <li>리스트 1</li>
+      <li>
+        리스트 2
+        <ul>
+          <li>리스트 2-1</li>
+          <li>리스트 2-2</li>
+          <li>리스트 2-3</li>
+        </ul>
+      </li>
+      <li>리스트 3</li>
+      <li>리스트 1</li>
+      <li>
+        리스트 2
+        <ul>
+          <li>리스트 2-1</li>
+          <li>리스트 2-2</li>
+          <li>리스트 2-3</li>
+        </ul>
+      </li>
+      <li>리스트 3</li>
+      <li>리스트 1</li>
+      <li>
+        리스트 2
+        <ul>
+          <li>리스트 2-1</li>
+          <li>리스트 2-2</li>
+          <li>리스트 2-3</li>
+        </ul>
+      </li>
+      <li>리스트 3</li>
+      <li>리스트 1</li>
+      <li>
+        리스트 2
+        <ul>
+          <li>리스트 2-1</li>
+          <li>리스트 2-2</li>
+          <li>리스트 2-3</li>
+        </ul>
+      </li>
+      <li>리스트 3</li>
+    </ul>
+  </div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>GNB</title>
+  <style>
+    * {
+      padding:0;
+      margin:0;
+    }
+    body {
+      padding:100px;
+    }
+    ul {
+      list-style:none;
+      /* overflow:hidden; */
+    }
+    ul:after {
+      content:'';
+      display:block;
+      clear:both;
+    }
+    div > ul > li {
+      position:relative;
+      float:left;
+      width:25%;
+      height:30px;
+      line-height:30px;
+      border:1px solid red;
+      box-sizing:border-box;
+      text-align:center;
+    }
+    div > ul > li ul {
+      position:absolute;
+      top:0;
+      left: 0;
+      height:0;
+      border:1px solid blue;
+      opacity:0;
+      transition:all .3s ease-in-out;
+    }
+    div > ul > li:hover ul {
+      opacity: 1;
+      top:29px;
+      height:100px;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <ul>
+      <li>리스트 1</li>
+      <li>
+        리스트 2
+        <ul>
+          <li>리스트 2-1</li>
+          <li>리스트 2-2</li>
+          <li>리스트 2-3</li>
+        </ul>
+      </li>
+      <li>리스트 3</li>
+      <li>리스트 1</li>
+    </ul>
+  </div>
+</body>
+</html>
