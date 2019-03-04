@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>form</title>
+<style>
+  * {
+    margin:0;
+    padding:0;
+  }
+  body {
+    padding:10px;
+  }
+  legend {
+    position:absolute;
+    left:-9999px;
+    font-size:0;
+  }
+  table {
+    width:100%;
+    border:1px solid red;
+  }
+  th {
+    background:blue;
+  }
+</style>
+</head>
+<body>
+  <form action="">
+    <legend>폼 제목</legend>
+    <!-- 명시적 레이블 / 암묵적 레이블 -->
+    <label for="text">텍스트</label>
+    <input type="text" maxlength="3" id="text">
+    <label for="pw">비밀번호</label>
+    <input type="password" maxlength="10" id="pw">
+    <label>gagagag<input type="text"></label>
+    <input type="radio" name="radio-1">
+    <input type="radio" name="radio-1" checked>
+    <input type="radio" name="radio-1">
+    <input type="checkbox" checked>
+    <input type="checkbox">
+    <input type="email" id="">
+    <input type="number" id="">
+    <input type="search" id="">
+    <input type="range" id="">
+    <input type="image" id="">
+    <input type="file" id="">
+    <input type="submit" id="">
+    <select name="" id="">
+      <option value="">선택</option>
+      <option value="gag">select2</option>
+      <option value="ag">select3</option>
+    </select>
+    <button type="button">버튼</button>
+    <button type="image">버튼</button>
+    <button type="submit">버튼</button>
+  </form>
+
+  <form action="/submit.php">
+    <table>
+      <tbody>
+        <tr>
+          <th scope="row"><label for="title">제목</label></th>
+          <td>
+            <input type="text" id="title">
+          </td>
+        </tr>
+      </tbody>
+    </table>    
+  </form>
+</body>
+</html>
