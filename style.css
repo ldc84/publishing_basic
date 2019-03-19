@@ -1,0 +1,66 @@
+@charset 'UTF-8';
+
+* {
+  padding:0;
+  margin:0;
+}
+ul,
+ol,
+li {
+  list-style:none;
+}
+a {
+  color:#000;
+  text-decoration:none;
+}
+
+/* wrap */
+#wrap {
+
+}
+
+/* header */
+header {
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  height:60px;
+  /* z-index:2; */
+}
+header h1 {
+  position:absolute;
+  top:20px;
+  left:40px;
+}
+header h1 a {
+  display:block;
+  width:66px;
+  height:20px;
+  background:url(//t1.kakaocdn.net/kakaocorp/pw/rtn/logo_kakao.png) no-repeat center center;
+  background-size:66px 20px;
+  text-indent:-9999px;
+}
+
+/* gnb */
+#gnb {
+  padding:0 0 0 20%;
+}
+#gnb li {
+  float:left;
+}
+#gnb li a {
+  display:block;
+  padding:22px 15px;
+}
+
+/* container */
+#container {
+  height:2000px;
+}
+
+/* footer */
+footer {
+  height:100px;
+  border-top:1px solid #d4d4d4;
+}
