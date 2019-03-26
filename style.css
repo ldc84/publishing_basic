@@ -26,7 +26,7 @@ header {
   left:0;
   right:0;
   height:60px;
-  /* z-index:2; */
+  z-index:2;
 }
 header h1 {
   position:absolute;
@@ -46,6 +46,11 @@ header h1 a {
 #gnb {
   padding:0 0 0 20%;
 }
+#gnb:after {
+  content:'';
+  display:block;
+  clear:both;
+}
 #gnb li {
   float:left;
 }
@@ -61,6 +66,54 @@ header h1 a {
 
 /* footer */
 footer {
+  position:relative;
   height:100px;
   border-top:1px solid #d4d4d4;
+}
+
+.foot-utill {
+  padding-left:30px;
+  padding-right:30px;
+  overflow:hidden;
+}
+
+.foot-utill li {
+  float:left;
+}
+.foot-utill li a {
+  display:block;
+  padding:15px;
+  font-size:12px;
+  line-height:1.1;
+}
+footer .family-site {
+  position:absolute;
+  top:15px;
+  right:45px;
+}
+footer .family-site a {
+  display:block;
+  width:100px;
+  font-size:12px;
+  border-bottom:1px solid #000;
+}
+footer .copy {
+  padding:0 0 0 40px;
+  font-size:12px;
+}
+
+/* contents */
+.visual-box {
+  
+}
+.visual-box img {
+  width:100%;
+}
+.visual-box li {
+  position:relative;
+}
+.visual-box li .text {
+  position:absolute;
+  top:10px;
+  left:10px;
 }
