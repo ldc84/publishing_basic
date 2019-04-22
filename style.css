@@ -51,6 +51,10 @@ header h1 a {
   text-indent:-9999px;
 }
 
+.menu {
+  display:none;
+}
+
 /* gnb */
 #gnb {
   padding:0 0 0 20%;
@@ -70,7 +74,7 @@ header h1 a {
 
 /* container */
 #container {
-  height:2000px;
+  
 }
 
 /* footer */
@@ -135,9 +139,14 @@ footer .copy {
 }
 .visual-box img {
   width:100%;
+  vertical-align:top;
 }
 .visual-box li {
+  display:none;
   position:relative;
+}
+.visual-box li.active {
+  display:block;
 }
 .visual-box li .text {
   position:absolute;
@@ -180,5 +189,83 @@ footer .copy {
 
 /* main-list-2 */
 .main-list-2 {
-  
+  width:100%;
+  margin:0 auto;
+  padding-top:60px;
+  overflow:hidden;
+}
+.main-list-2 li {
+  float:left;
+  width:30%;
+  padding:0 1.5%;
+  color:#1e1e1e;
+}
+
+.main-list-2 li .box {
+  position: relative; 
+     
+}
+.main-list-2 li .box img {
+  width:100%;
+}
+
+.main-list-2 .box h2 {
+  display: block;
+  position: absolute; 
+  top:20px;
+  left:20px;
+}
+
+.main-list-2 .box h2 span {
+  color: #fff;
+}
+
+
+.main-list-2 li .main-title {
+  padding-top:18px;
+}
+
+/* 0 ~ 767px 넓이만 적용 */
+@media screen and (max-width:767px) {
+
+  .menu {
+    display:block;
+    position:absolute;
+    top:10px;
+    right:10px;
+    width:20px;
+    height:20px;
+    background-color:red;
+  }
+
+  /* gnb */
+  #gnb {
+    display:none;
+    padding:0 0 0 20%;
+  }
+  #gnb li {
+    float:none;
+  }
+  #gnb li a {
+    padding:10px;
+  }
+
+  /* main-list-1 */
+  .main-list-1 li {
+    width:97%;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-top:1px solid #999;
+  }
+  .main-list-1 li:first-child {
+    border-top:none;
+  }
+
+  /* main-list-2 */
+  .main-list-2 li {
+    width:97%;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-top:1px solid #999;
+  }
 }
