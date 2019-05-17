@@ -135,7 +135,7 @@ footer .copy {
 
 /* visual */
 .visual-box {
-  
+  position:relative;
 }
 .visual-box img {
   width:100%;
@@ -152,6 +152,24 @@ footer .copy {
   position:absolute;
   top:10px;
   left:10px;
+}
+.visual-box > a {
+  position:absolute;
+  top:50%;
+  margin-top:-25px;
+  display:block;
+  width:50px;
+  height:50px;
+  line-height:50px;
+  background:#000;
+  color:#fff;
+  text-align:center;
+}
+.visual-box a.btn-prev {
+  left:0;
+}
+.visual-box a.btn-next {
+  right:0;
 }
 
 /* main-list-1 */

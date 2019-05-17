@@ -40,6 +40,8 @@
             <img src="https://t1.kakaocdn.net/kakaocorp/operating/co/main-banner/2928.png" alt="">
           </li>
         </ul>
+        <a href="" class="btn-prev">이전</a>
+        <a href="" class="btn-next">다음</a>
       </div>
       <!-- //visual-box -->
       
@@ -151,9 +153,40 @@
   <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
   <script>
     $(function(){
-      $('.visual-box img').on('click', function(){
-        alert('이미지 클릭 이벤트');
+
+      let visual = $('.visual-box li');
+      let visualLen = visual.length-1;
+      let state = 0;
+
+      // 이전버튼
+      $('.visual-box a.btn-prev').on('click', function(){
+        if(state == 0){
+          state = visualLen;
+        }else {
+          state--;
+        }
+        visualActions();
+        return false;
       });
+
+      // 다음버튼
+      $('.visual-box a.btn-next').on('click', function(){
+        if(state >= visualLen){
+          state = 0;
+        }else {
+          state++;
+        }
+        visualActions();
+        return false;
+      });
+
+      function visualActions(){
+        $('.visual-box li').removeClass('active');
+        $('.visual-box li').eq(state).addClass('active');
+        
+        // $('.visual-box li').hide();
+        // $('.visual-box li').eq(state).fadeIn(250);
+      }
     });
   </script>
 </body>
