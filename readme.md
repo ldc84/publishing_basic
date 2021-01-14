@@ -29,6 +29,12 @@ repository 생성 후
 > git push -u origin main (또는 master)
 ```
 
+* 기존에 repository(저장소) 에서 복사해올때
+```bash
+> git clone https://github.com/username/repo.git # repository폴더가 같이 복사
+> git clone https://github.com/username/repo.git . # 현재폴더에 복사
+```
+
 * 기존에 연결된 repository(저장소) 에서 최신 버전으로 업데이트 받을때
 ```bash
 > git pull
